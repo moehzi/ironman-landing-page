@@ -11,7 +11,12 @@ section {
 nav {
 	font-family: 'Bebas Neue', cursive;
 	z-index: 1;
-	/* font-family: 'Ruda', sans-serif; */
+
+}
+
+.p-text {
+	font-family: 'Ruda', sans-serif;
+	font-size: 22px;
 }
 
 .bg-image {
@@ -20,4 +25,33 @@ nav {
 
 .nav-link {
 	color: #fff;
+}
+
+.z-1 {
+	z-index: 2;
+}
+
+.bg-image {
+	top: 0;
+	right: 0;
+}
+
+.btn {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+}
+
+.cta {
+	height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.bg-image {
+		top: auto;
+		bottom: 0;
+	}
+
+	.cta {
+		height: 50%;
+	}
 }
