@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@700&display=swap');
+
+section {
+	height: 100vh;
+	background-image: url(/src/bg-image.png);
+	background-position: center;
+	background-size: cover;
+}
+
+nav {
+	font-family: 'Bebas Neue', cursive;
+
+	/* font-family: 'Ruda', sans-serif; */
+}
+
+.nav-link {
+	color: #fff;
+}
