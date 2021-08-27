@@ -36,8 +36,8 @@ body {
 }
 
 .bg-image {
-	top: 0;
 	right: 0;
+	bottom: 0;
 }
 
 .btn {
@@ -52,7 +52,6 @@ body {
 @media screen and (max-width: 800px) {
 	.bg-image {
 		top: auto;
-		bottom: 0;
 	}
 
 	.cta {
