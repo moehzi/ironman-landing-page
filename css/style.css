@@ -5,12 +5,17 @@ section {
 	background-image: url(/src/bg-image.png);
 	background-position: center;
 	background-size: cover;
+	position: relative;
 }
 
 nav {
 	font-family: 'Bebas Neue', cursive;
-
+	z-index: 1;
 	/* font-family: 'Ruda', sans-serif; */
+}
+
+.bg-image {
+	z-index: 0;
 }
 
 .nav-link {
