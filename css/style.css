@@ -31,6 +31,10 @@ nav {
 	z-index: 2;
 }
 
+body {
+	overflow-y: hidden;
+}
+
 .bg-image {
 	top: 0;
 	right: 0;
